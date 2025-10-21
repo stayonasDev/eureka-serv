@@ -17,7 +17,7 @@ $ docker push stayonasdev/sc-eureka:0.2.0
 services:
   eureka-server:
     # 유레카 서버의 도커 이미지 이름
-    image: datamario24/sc-eureka:0.2.0 
+    image: stayonasdev/sc-eureka:0.2.0 
     container_name: eureka-server
     ports:
       # 외부 포트:컨테이너 내부 포트 (외부에서 접근 시 필요)
